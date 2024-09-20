@@ -5,7 +5,7 @@ public class main {
 
         int bonusMoney = moneyCredited < 1000 ? 0 : moneyCredited / 100;
 
-        System.out.println("Ваш баланс: " + balance + " зачисенно бонусных рублей " + bonusMoney);
+        System.out.println("Ваш баланс: " + balance + " зачисленно бонусных рублей " + bonusMoney);
     }
 
 }
