@@ -1,6 +1,7 @@
-public class main {
+public class Main {
     public static void main(String[] args) {
-        int balance = -100, moneyCredited = 1800;
+        int balance = -100;
+        int moneyCredited = 1800;
         balance = balance + moneyCredited;
 
         int bonusMoney = moneyCredited < 1000 ? 0 : moneyCredited / 100;
